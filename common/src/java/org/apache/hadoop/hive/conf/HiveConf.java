@@ -4436,7 +4436,7 @@ public class HiveConf extends Configuration {
         "Whether to enable TCP keepalive for the Hive Server. Keepalive will prevent accumulation of half-open connections."),
 
     HIVE_DECODE_PARTITION_NAME("hive.decode.partition.name", false,
-        "Whether to show the unquoted partition names in query results."),
+        "check Whether to show the unquoted partition names in query results."),
 
     HIVE_EXECUTION_ENGINE("hive.execution.engine", "mr", new StringSet(true, "mr", "tez"),
         "Chooses execution engine. Options are: mr (Map reduce, default), tez. While MR\n" +
